@@ -20,6 +20,6 @@ d = 12 - b
 
 e = c * 12
 f = e + d
-g = f + 3
+g = f + 3  """ REFERING TO MARCH 2020 CHANGE THE '3' HERE ACCORDING TO THE CURRENT MONTH EX. JANUARY 1, FEBRUARY 2 ETC """
 
 print ("You are " + str(g) + " months old")
