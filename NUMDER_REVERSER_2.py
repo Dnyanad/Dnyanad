@@ -9,4 +9,4 @@ h = g % 10000
 i = g - h
 j = i % 100000
 k = j / 10000 + h / 100 + f + d * 100 + b * 10000
-print("REVERSED NUMBER IS " + str(k)) 
+print("REVERSED NUMBER IS " + str(int(k))) 
