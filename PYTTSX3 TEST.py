@@ -1,0 +1,10 @@
+import pyttsx3
+
+engine = pyttsx3.init()
+
+def speak(msg):
+    engine.say(msg)
+    engine.setProperty('rate',200)
+    engine.runAndWait()
+    
+speak("I don't do this for the riches I'm infected, my condition is I'm always in my head These words are my religion I'm obsessive by decision I'ma do this 'til I'm dead-ead Set me on fire Set me on, set me on fire Whoa-oh, whoa I'm still alive I'm still a, I'm still alive Whoa-oh Bet you didn't think that I'd come back to life Fire, faster, everlasting (bet you didn't think I'd come back to life) Higher, faster, never crashing Bet you didn't think that I'd come back to life Stronger (stronger, stronger, stronger, stronger) Bet you didn't think that I'd come back to life Stronger (stronger, stronger, stronger, stronger) Bet you didn't think that I'd come back to life I do this with conviction I write truths and never fiction My disease is what you fed I can't stop with my ambition Like a missile on a mission I'm a force that you will dread-ead Set me on fire Set me on, set me on fire Whoa-oh, whoa I'm still alive I'm still a, I'm still alive Whoa-oh Bet you didn't think that I'd come back to life Stronger (stronger , stronger, stronger, stronger) Bet you didn't think that I'd come back to life Stronger (stronger, stronger, stronger, stronger) Bet you didn't think that I'd come back to life Bet you thought that I was dead But I'm not dead, I'm not dead Bet you thought that I was dead But I'm not dead, I'm not dead stronger, stronger, everlasting Now, you're faster, never crashing Stronger, stronger, everlasting Now, you're faster, never crashing Bet you didn't think that I'd come back to life Stronger (stronger, stronger, stronger, stronger) Bet you didn't think that I'd come back to life Stronger (stronger, stronger, stronge, stronger) Bet you didn't think that I'd come back to life Stronger (bet you thought that I was dead, but I'm not dead, but I'm not dead Bet that you didn't think that I'd come back to life Stronger (bet you thought that I was dead, but I'm not dead, but I'm not dead Bet that you didn't think that I'd come back to life Bet you didn't think that I'd come back to life")
